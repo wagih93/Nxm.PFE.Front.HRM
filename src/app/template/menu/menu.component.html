@@ -1,0 +1,20 @@
+<!-- <nav>
+    <ul>
+        <li class="logo"><i class="fa fa-database" style="font-size:60px;color:rgb(155, 69, 69)"></i></li>
+        <li> <a class="drop-link" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><i class="fa fa-home"  ></i>&nbsp; Home</a></li>
+        <li><a routerLink="/legalentity/create" routerLinkActive="active"><i class="fa fa-users"></i>&nbsp; Create LegalEntity</a></li>
+        <li><a routerLink="/legalentity/list" routerLinkActive="active"><i class="fa fa-users"></i>&nbsp; List LegalEntity</a></li>
+
+    </ul>
+</nav> -->
+
+<p-sidebar [(visible)]="visibleSidebar1" [baseZIndex]="10000">
+    <p-panelMenu [model]="items" [style]="{'width':'300px'}"></p-panelMenu>
+    <!-- <h1 style="font-weight:normal">Left Sidebar</h1>
+    <p-button type="button" (click)="visibleSidebar1 = false" label="Save" styleClass="p-button-success"></p-button>
+    <p-button type="button" (click)="visibleSidebar1 = false" label="Cancel" styleClass="p-button-secondary"></p-button> -->
+
+</p-sidebar>
+
+
+<p-button type="button" (click)="visibleSidebar1 = true">MENU</p-button>

@@ -1,0 +1,67 @@
+<form [formGroup]="legalEntityForm" (ngSubmit)="create()">
+    <div class="input-wrap">
+
+        <span class="p-float-label">
+      <input formControlName="companyName" id="float-input" type="text" pInputText>
+      <label for="float-input">Company Name</label>
+    </span>
+
+        <span class="p-float-label">
+      <input formControlName="address" id="float-input" type="text" pInputText>
+      <label for="float-input">address</label>
+    </span>
+
+        <span class="p-float-label">
+      <input formControlName="zipCode" id="float-input" type="text" pInputText>
+      <label for="float-input">zipCode</label>
+    </span>
+
+        <span class="p-float-label">
+      <input formControlName="city" id="float-input" type="text" pInputText>
+      <label for="float-input">City</label>
+    </span>
+
+        <span class="p-float-label">
+      <input formControlName="country" id="float-input" type="text" pInputText>
+      <label for="float-input">Country</label>
+    </span>
+
+        <span class="p-float-label">
+      <input formControlName="currency" id="float-input" type="text" pInputText>
+      <label for="float-input">Currency</label>
+    </span>
+
+
+        <span class="p-float-label">
+      <input formControlName="activityCode" id="float-input" type="text" pInputText>
+      <label for="float-input">Activity Code</label>
+    </span>
+
+
+        <span class="p-float-label">
+      <input formControlName="codeTva" id="float-input" type="text" pInputText>
+      <label for="float-input">CodeTva</label>
+    </span>
+
+
+        <span class="p-float-label">
+      <input formControlName="identifier1" id="float-input" type="text" pInputText>
+      <label for="float-input">Identifier N°1</label>
+    </span>
+
+
+        <span class="p-float-label">
+      <input formControlName="identifier2" id="float-input" type="text" pInputText>
+      <label for="float-input">Identifier N°2</label>
+    </span>
+
+
+        <span class="p-float-label">
+      <input formControlName="authorizeDomainName" id="float-input" type="text" pInputText>
+      <label for="float-input">Authorize Domain Name</label>
+    </span>
+    </div>
+    <div class="btn-wrap">
+        <button pButton type="submit" label="Add"></button>
+    </div>
+</form>
