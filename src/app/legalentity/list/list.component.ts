@@ -31,4 +31,9 @@ export class ListComponent implements OnInit {
         }
       )
   }
+  onDelete(id: string){
+    if (confirm("are you sure to delete !!"))
+    this.httpservice.delete("LegalEntity/Delete",id).subscribe(result=>{this.getLegalEntities()},
+      error=>{console.log(error)})
+  }
 }

@@ -1,0 +1,24 @@
+.fa-edit {
+    font-size: 36px;
+    color: rgb(47, 0, 255);
+}
+
+.fa-edit:hover {
+    color: rgb(0, 2, 141);
+    cursor: pointer;
+}
+
+button {
+    border: transparent;
+    background-color: transparent;
+}
+
+.fa-trash {
+    font-size: 36px;
+    color: red;
+}
+
+.fa-trash:hover {
+    color: rgb(124, 7, 7);
+    cursor: pointer;
+}
